@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c2c2c; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e1e1e; stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFD700; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcc33; stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Glowing Central Node -->
+  <circle cx="50" cy="50" r="15" fill="url(#glowGradient)" stroke="#FFD700" stroke-width="2"/>
+
+  <!-- Connecting Neural Lines -->
+  <line x1="50" y1="50" x2="25" y2="25" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5"/>
+  <line x1="50" y1="50" x2="75" y2="25" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5"/>
+  <line x1="50" y1="50" x2="25" y2="75" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5"/>
+  <line x1="50" y1="50" x2="75" y2="75" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5"/>
+  
+  <!-- Small Nodes along Lines -->
+  <circle cx="25" cy="25" r="4" fill="#FFD700" />
+  <circle cx="75" cy="25" r="4" fill="#FFD700" />
+  <circle cx="25" cy="75" r="4" fill="#FFD700" />
+  <circle cx="75" cy="75" r="4" fill="#FFD700" />
+
+  <!-- Outer Circles to Represent Neural Layers -->
+  <circle cx="50" cy="50" r="30" fill="transparent" stroke="#FFD700" stroke-width="1"/>
+  <circle cx="50" cy="50" r="45" fill="transparent" stroke="#FFD700" stroke-width="1"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="javaGradient" x1="2" y1="1" x2="30" y2="17" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259336" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Java Coffee Cup -->
+  <path d="M20 30 C10 28, 12 24, 20 20 C28 24, 30 28, 20 30 Z" fill="url(#javaGradient)"/>
+  <path d="M15 17 Q20 15, 25 17 Q22 18, 20 19 Q18 18, 15 17 Z" fill="url(#javaGradient)"/>
+  <path d="M18 12 Q20 10, 22 12 Q20 13, 18 12 Z" fill="url(#javaGradient)"/>
+
+  <!-- DSA Symbol (Binary Tree) -->
+  <circle cx="20" cy="6" r="2" fill="url(#javaGradient)"/>
+  <circle cx="14" cy="12" r="2" fill="url(#javaGradient)"/>
+  <circle cx="26" cy="12" r="2" fill="url(#javaGradient)"/>
+  <circle cx="10" cy="18" r="2" fill="url(#javaGradient)"/>
+  <circle cx="18" cy="18" r="2" fill="url(#javaGradient)"/>
+  <circle cx="22" cy="18" r="2" fill="url(#javaGradient)"/>
+  <circle cx="30" cy="18" r="2" fill="url(#javaGradient)"/>
+  
+  <line x1="20" y1="6" x2="14" y2="12" stroke="url(#javaGradient)" stroke-width="1.5"/>
+  <line x1="20" y1="6" x2="26" y2="12" stroke="url(#javaGradient)" stroke-width="1.5"/>
+  <line x1="14" y1="12" x2="10" y2="18" stroke="url(#javaGradient)" stroke-width="1.5"/>
+  <line x1="14" y1="12" x2="18" y2="18" stroke="url(#javaGradient)" stroke-width="1.5"/>
+  <line x1="26" y1="12" x2="22" y2="18" stroke="url(#javaGradient)" stroke-width="1.5"/>
+  <line x1="26" y1="12" x2="30" y2="18" stroke="url(#javaGradient)" stroke-width="1.5"/>
+</svg>
